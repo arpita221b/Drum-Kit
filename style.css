@@ -1,0 +1,64 @@
+  h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 6rem;
+    color: white;
+
+  }
+  body{
+    text-align: center;
+    background-color:#52de97 ;
+    margin: 0;
+
+  }
+  /* .w{ }
+  .a{ }
+  .s{ }
+  .d{ }
+  .j{ }
+  .k{ }
+  .l{ } */
+
+  .btn{
+    border:none;
+    background-color: #c0ffb3;
+    color: black;
+    padding: 1% 4%;
+    display: inline-block;
+    font-size: 4rem;
+    font-family: 'Tangerine', cursive;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color:#52de97 ;
+  }
+
+  .but{
+    background-color:#52de97 ;
+
+  }
+  .notes{
+    position: relative;
+    width:100%;
+  }
+
+  .pic{
+    position: absolute;
+    width:40%;
+    right:2px;
+    z-index: -1;
+  }
+@media (max-width: 1200px ){
+  .notes{
+    position:relative;
+    top:60px;
+    width:100%;
+
+  }
+
+  .pic{
+    position: absolute;
+    width:50%;
+    right:2px;
+    z-index: -1;
+  }
+}
